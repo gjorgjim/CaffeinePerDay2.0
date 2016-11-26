@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/chosedImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/tea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Drink Name"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/chosedTitle"
+        android:textColor="@color/colorText2"
+        android:layout_alignTop="@+id/chosedImage"
+        android:layout_toRightOf="@+id/chosedImage"
+        android:layout_toEndOf="@+id/chosedImage"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/chosedNumberOf"
+        android:layout_toStartOf="@+id/chosedNumberOf"
+        style="@style/TextStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x0"
+        android:paddingTop="20dp"
+        android:textSize="10sp"
+        android:id="@+id/chosedNumberOf"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/QuantityTextStyle"/>
+</RelativeLayout>

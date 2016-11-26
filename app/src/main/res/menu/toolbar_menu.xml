@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="About"/>
+    <item
+        android:id="@+id/age"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="Change Age"/>
+
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:title="Search" />
+
+
+</menu>
